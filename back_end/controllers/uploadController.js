@@ -90,7 +90,7 @@ const removeProject = async (req, res) => {
   try {
     const { id } = req.body;
     if (!id) {
-      return res.json({ success: false, message: "Project Id required" });
+      return res.json({ success: false, message: "Project Id required!" });
     }
 
     const project = await uploadModel.findOneAndDelete(id);
