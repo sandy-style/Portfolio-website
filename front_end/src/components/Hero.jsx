@@ -7,23 +7,36 @@ export default function Hero() {
   };
 
   return (
-    <section id="home" className="relative overflow-hidden border-b border-slate-200/80 bg-[#f7f9fc] pt-[74px]">
-      <div className="absolute -right-40 top-20 h-80 w-80 rounded-full bg-[#dce8f7]/55 blur-3xl" aria-hidden="true" />
-      <div className="absolute -left-40 bottom-0 h-72 w-72 rounded-full bg-[#e8edf4]/70 blur-3xl" aria-hidden="true" />
+    <section
+      id="home"
+      className="relative overflow-hidden border-b border-slate-200/80 bg-[#f7f9fc] pt-[74px]"
+    >
+      <div
+        className="absolute -right-40 top-20 h-80 w-80 rounded-full bg-[#dce8f7]/55 blur-3xl"
+        aria-hidden="true"
+      />
+      <div
+        className="absolute -left-40 bottom-0 h-72 w-72 rounded-full bg-[#e8edf4]/70 blur-3xl"
+        aria-hidden="true"
+      />
 
       <div className="section-shell grid min-h-[calc(100vh-74px)] items-center gap-12 py-16 md:grid-cols-[1.05fr_0.95fr] md:py-20 lg:gap-20">
         <div className="reveal max-w-2xl">
-          <p className="section-kicker mb-5">MERN Stack Developer · Pokhara, Nepal</p>
+          <p className="section-kicker mb-5">
+            MERN Stack Developer · Pokhara, Nepal
+          </p>
           <h1 className="font-[Manrope] text-[clamp(3rem,7vw,5.7rem)] font-extrabold leading-[0.94] tracking-[-0.065em] text-[#142039]">
             Sandesh
             <br />
             <span className="text-[#5273a4]">Poudel.</span>
           </h1>
           <p className="mt-7 max-w-xl text-lg font-semibold leading-8 text-slate-700 sm:text-xl">
-            I build practical web applications while going deeper into the software engineering ideas behind them.
+            I build practical web applications while going deeper into the
+            software engineering ideas behind them.
           </p>
           <p className="mt-4 max-w-xl text-[0.98rem] leading-7 text-slate-500">
-            Currently focused on the MERN stack, JavaScript, and DSA, with a long-term interest in application and game development.
+            Currently focused on the MERN stack, JavaScript, and DSA, with a
+            long-term interest in application and game development.
           </p>
 
           <div className="mt-9 flex flex-wrap gap-3">
@@ -33,7 +46,10 @@ export default function Hero() {
               className="group inline-flex items-center gap-2 rounded-full bg-[#19365f] px-5 py-3 text-sm font-bold text-white shadow-[0_8px_22px_rgba(25,54,95,0.18)] transition hover:bg-[#244a7f] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#5273a4] focus-visible:ring-offset-2"
             >
               View Projects
-              <ArrowRight size={16} className="transition-transform group-hover:translate-x-0.5" />
+              <ArrowRight
+                size={16}
+                className="transition-transform group-hover:translate-x-0.5"
+              />
             </button>
             <button
               type="button"
@@ -52,7 +68,10 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="reveal flex justify-center md:justify-end" style={{ animationDelay: "100ms" }}>
+        <div
+          className="reveal flex justify-center md:justify-end"
+          style={{ animationDelay: "100ms" }}
+        >
           <div className="relative h-[min(70vw,430px)] w-[min(70vw,430px)]">
             <div className="absolute inset-0 rounded-full border border-[#b8c9df] bg-white p-3 shadow-[0_28px_80px_rgba(28,53,92,0.14)]">
               <div className="h-full w-full overflow-hidden rounded-full bg-slate-100">
