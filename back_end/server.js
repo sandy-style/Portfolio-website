@@ -22,11 +22,7 @@ try {
 connectCloudinary();
 
 app.use(express.json());
-app.use(
-  cors({
-    origin: [process.env.ADMIN_URL, process.env.FRONT_END_URL],
-  }),
-);
+app.use(cors());
 app.use("/api/admin", uploadRouter);
 app.use("/api/admin", userRouter);
 
